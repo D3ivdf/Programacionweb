@@ -4,3 +4,7 @@ h1{
 .center{
     text-align: center;
 }
+#contenedor{
+    width: auto;
+    margin: auto;
+}

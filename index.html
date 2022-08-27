@@ -2,13 +2,22 @@
 <html leng="es">
     <head>
         <meta charset="Utf-8">
-        <meta name="Descripcion" content="esta es mi pagina">
+        <meta name="Descripcion" content="Pagina de documentacion html">
         <title>Programacion web</title>
         <link rel="stylesheet" href="estile.css">
+        <h1 class="center">Formulario de Programacion Web</h1>
+        <p class="center" id="descripcion">Este formulario debe llenarce deacuerdo a tus conocimientos</p>
     </head>
     <body>
-        <h1 class="center">Formulario de Programacion Web</h1>
         <a href="https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/HTML_basics"><p> Documentacion de html </p></a>
+        <div id="contenedor">
+            <form id="formulario">
+                <label id="label-nombre" for="Nombres">Nombres:</label>
+                <input id="nombre" type="text" name="Nombres" required class="texto" placeholder="Ingresa tu nombres aqui">
+                <label id="label-apellido" for="Apellidos">Apellidos:</label>
+                <input id="apellido" type="text" name="Apellidos" required calss="texto" placeholder="Ingresa tus apellidos aqui">
 
+            </form>
+        </div>
     </body>
 </html>
