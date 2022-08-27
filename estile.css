@@ -8,3 +8,15 @@ h1{
     width: auto;
     margin: auto;
 }
+input::placeholder{
+    text-align: center;
+    font-size: 1em;
+    font-style: italic;
+}
+label{
+    color: black;
+    display: flex;
+    align-items: center;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
