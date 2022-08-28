@@ -9,17 +9,31 @@
         <p class="center" id="descripcion">Este formulario debe llenarse deacuerdo a tus conocimientos</p>
     </head>
     <body>
-        <a href="https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/HTML_basics"><p> Documentacion de html </p></a>
+         
         <div id="contenedor">
             <form id="formulario">
                 <label id="label-nombre" for="Nombres">Nombres:</label>
                 <input id="nombre" type="text" name="Nombres" required class="texto" placeholder="Ingresa tus nombres aqui">
                 <label id="label-apellido" for="Apellidos">Apellidos:</label>
                 <input id="apellido" type="text" name="Apellidos" required calss="texto" placeholder="Ingresa tus apellidos aqui">
-                <p>Nivel conocimientos de html <span>Obligatorio llenar</span></p>
+                <p>Nivel conocimientos de html</p><span>(Obligatorio llenar)</span>
                 <label> <input  type="checkbox" name="user-conocimientos" value="alto"> Alto</label>
                 <label> <input  type="checkbox" name="user-conocimientos" value="medio"> Medio</label>
                 <label> <input  type="checkbox" name="user-conocimientos" value="bajo"> Bajo</label>
+                <a href="https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/HTML_basics"><p> Documentacion de html </p></a>
+                <label id="edad" for="edad-h">Edad</label>
+                <input id="edad" type="number" name="edades" required min="5" max="99">
+                <label id="label-fechaN" for="fechaN"><span>¿Fecha de Nacimiento?</span></label>
+                <input id="fecha" type="date" name="fechaN" required="">
+
+                <section class="form-group">
+                    <select id="doropdawn" class="contenedor" name="selec" required="">
+                        <option disabled="" selected="" value="">Selecciona tu rol</option>
+                        <option value="Estudiante">Estudiante</option>
+                        <option value="Profesor">Profesor</option>
+                    </select>
+                </section>
+                <button>Enviar</button>
             </form>
         </div>
     </body>

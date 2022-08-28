@@ -1,17 +1,21 @@
 h1{
-    background-color: aqua;
+    background-image: url(https://cdn.pixabay.com/photo/2020/02/24/18/05/background-4876988_960_720.jpg);
 }
 .center{
     text-align: center;
 }
 #contenedor{
-    width: auto;
-    margin: auto;
+    width: 300px;
+    margin: 0 auto;
 }
 input::placeholder{
     text-align: center;
     font-size: 1em;
     font-style: italic;
+}
+
+#edad{
+    width: 8em;
 }
 label{
     color: black;
@@ -21,5 +25,26 @@ label{
     margin-bottom: 0.5rem;
 }
 input{
-    border-radius: 30%;
+    border-radius: 5px;
 }
+p{
+    color: black;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+#fecha{
+    font-size: 1.25rem;
+}
+.form-group{
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+    margin-top: 1em;
+}
+#doropdawn{
+    font-size: 1em;
+    font-style: italic;
+}
+html{
+    background-image: url(https://clinicadentalbarqueta.com/wp-content/uploads/2014/03/fondo-formulario.jpg); background-size:cover; background-attachment: fixed; background-repeat: no-repeat;;
+}
+
