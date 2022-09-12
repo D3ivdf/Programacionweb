@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <title>Trabajo en clases</title>
+</head>
+<body>
+    <main>
+        <div class="container text-center mt-4">
+            <div class="row">
+                <div class="col-sm-5">
+                    <h1 class="text-center mt-4">Formulario de web</h1>
+                    <form class="mb-3 row text-center mt-4">
+                        <label for="Inputtext" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="Inputnombre" aria-describedby="" required alert="Nombre">
+                        <label for="Inputtext" class="form-label">Apellido</label>
+                        <input type="text" class="form-control" id="Inputapellido" aria-describedby="" required>
+                        <p class="text-center">¿Desea registrarce en el curso?</p>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">Si</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                            <label class="form-check-label" for="flexRadioDefault2">No</label>
+                        </div>
+                       <label for="Inputemail" class="form-label">Email</label>
+                       <input type="email" class="form-control" id="email" placeholder="david@gmail.com">
+                       <label for="Inputemail" class="form-label">Fecha</label>
+                       <input type="date" class="form-control" id="date">
+                       <label for="Inputtext" class="form-label">Contraseña</label>
+                       <input type="password" class="form-control" pattern=".{8,11}" placeholder="*******" required>
+                       <label for="Inputtext" class="form-label"> Verificar contraseña</label>
+                       <input type="password" class="form-control" pattern=".{8,11}" placeholder="*******" required>
+                    </form>
+                    <button type="button" class="btn btn-primary">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
