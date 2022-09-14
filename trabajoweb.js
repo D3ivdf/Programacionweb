@@ -19,12 +19,12 @@ function shows()
     }
 }
 function comparar(){
-    let pass1 = document.getElementById("password1");
-    let pass2 = document.getElementById("password2");
-    if(pass1.value != pass2.value){
-
+    let pass1 = document.getElementById("password1").value;
+    let pass2 = document.getElementById("password2").value;
+    if(pass1 === pass2){
+        window.alert("correcta");
     }else{
-        
+        window.alert("error");
     }
 
 }

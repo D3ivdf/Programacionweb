@@ -15,7 +15,7 @@
                     <h1 class="text-center mt-4">Formulario de web</h1>
                     <form class="mb-3 row text-center mt-4">
                         <label for="Inputtext" class="form-label">Nombre</label>
-                        <input type="text" class="form-control" id="Inputnombre" aria-describedby="" required alert="Nombre" ondblclick="nombre()" >
+                        <input type="text" class="form-control" id="Inputnombre" aria-describedby="" required alert="Nombre"  onblur="nombre()">
                         <label for="Inputtext" class="form-label">Apellido</label>
                         <input type="text" class="form-control" id="Inputapellido" aria-describedby="" required>
                         <p class="text-center">¿Desea registrarce en el curso?</p>
@@ -49,9 +49,9 @@
                        <label for="Inputemail" class="form-label">Fecha</label>
                        <input type="date" class="form-control" id="date">
                        <label for="Inputtext" class="form-label">Contraseña</label>
-                       <input type="password" class="form-control" pattern=".{8,11}" placeholder="*******" required id="password1" onchange="comparar()">
+                       <input type="password" class="form-control" pattern=".{8,11}" placeholder="*******" required id="password1" >
                        <label for="Inputtext" class="form-label"> Verificar contraseña</label>
-                       <input type="password" class="form-control" pattern=".{8,11}" placeholder="*******" required id="password2" onchange="comparar()">
+                       <input type="password" class="form-control" pattern=".{8,11}" placeholder="*******" required id="password2" onblur="comparar()">
                     </form>
                     <button type="button" class="btn btn-primary">Enviar</button>
                 </div>
