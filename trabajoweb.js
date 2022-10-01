@@ -48,8 +48,8 @@ function vacio(){
     let correo = document.getElementById('email').value;
     let email=correo.trim();
     if((correo.length==0)){
-        document.getElementById('boton').style.borderColor = 'red';
-        document.getElementById('email').disabled=true;
+        document.getElementById('email').style.borderColor = 'red';
+        document.getElementById('boton').disabled=true;
     }
     else{
         document.getElementById('boton').style.borderColor = 'green';
