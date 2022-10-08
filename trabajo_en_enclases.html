@@ -41,5 +41,60 @@
             </div>
         </div>
     </main>
+                <div class="col">
+                    
+                  </div>
+                <div class="col-sm-5">
+                    <h1 class="mt-4">Formulario de web</h1>
+                    <form action="">
+                        <label for="Inputnombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="Inputnombre" aria-describedby="" required alert="Nombre"  onblur="nombre()" placeholder="Nombre eje david" title="igresa nombre">
+                        <label for="Inputtext" class="form-label">Apellido</label>
+                        <input type="text" class="form-control" id="Inputapellido" aria-describedby="" required placeholder="Apellido">
+                        <p>¿Desea registrarce en el curso?</p>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" value="Si" onchange="shows()">
+                            <label class="form-check-label" for="flexRadioDefault1">Si</label>
+                            <br><br>
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" value="No" onchange="shows()">
+                            <label class="form-check-label" for="flexRadioDefault2">No</label>
+                        </div>
+                        <br><br>
+                        <div id="content" style="display: none;">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                 curso web basico
+                                </label>
+                            </div>
+                            <br>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                 curso web avansado
+                                </label>
+                            </div>
+                          </div>
+                          <br><br>
+                       <label for="Inputemail" class="form-label">Email</label>
+                       <input type="email" name="email" class="form-control" id="email" placeholder="yucas@gmail.com" required onfocusout="vacio()">
+                       <label for="Inputemail" class="form-label">Fecha</label>
+                       <input type="date" class="form-control" id="date">
+                       <label for="Inputtext" class="form-label">Contraseña</label>
+                       <input type="password" class="form-control" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" placeholder="*******" required id="password1" >
+                       <label for="Inputtext" class="form-label"> Verificar contraseña</label>
+                       <input type="password" class="form-control" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" placeholder="*******" required id="password2" onfocusout="comparar()">
+                    </form>
+                    <br><br>
+                    <button type="submit" class="btn btn-success" id="boton" disabled>Enviar</button>
+                </div>
+                <div class="col">
+                    
+                  </div>
+            </div>
+        </div>
+    </main>
+    <script src="trabajoweb.js" >
+    </script>
 </body>
 </html>

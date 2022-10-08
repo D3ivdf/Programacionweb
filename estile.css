@@ -47,4 +47,27 @@ p{
 html{
     background-image: url(https://clinicadentalbarqueta.com/wp-content/uploads/2014/03/fondo-formulario.jpg); background-size:cover; background-attachment: fixed; background-repeat: no-repeat;;
 }
-
+.main-nav{
+  margin-top: 10px;
+  list-style: none;
+  padding-left: 0;
+  background-color: #13f4a4;
+}
+.main-nav_item{
+ display: inline-block; 
+}
+.main-nav_item a{
+ color: white;
+  padding: 5px;
+  border-radius: 2px;
+  text-decoration: none;
+}
+.main-nav_item a:hover{
+  color: blue;
+}
+.main-nav_item a:active{
+  color: red;
+}
+.main-nav_item a::after{
+  content: " | ";
+}
